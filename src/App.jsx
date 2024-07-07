@@ -9,7 +9,7 @@ import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <>O
+    <>
       <BrowserRouter>
         <Navbar />
         <Routes>
