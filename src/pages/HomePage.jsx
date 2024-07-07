@@ -16,7 +16,7 @@ const HomePage = () => {
           <p className="font-regular text-slate-500 tracking-wider">
             Create, share, and take quizzes to test your knowledge and have fun!
           </p>
-          <div className="hero_buttons">
+          <div className="hero_buttons flex flex-col items-center gap-4 sm:grid sm:place-items-center sm:grid-cols-2">
             <Link
               to="/createquiz"
               className="text-white py-4 px-10 me-4 rounded-full bg-orange-400 hover:bg-white hover:border-2 hover:text-slate-500"
